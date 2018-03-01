@@ -1,0 +1,196 @@
+@font-face{
+	font-family: 'Asap Bold';
+	src: url('../fonts/Asap/Asap-Bold.ttf') format('truetype');
+}
+html{	box-sizing: border-box; }
+*,*:before,*:after{	box-sizing: inherit; }
+a{ color: inherit; text-decoration: none; }
+a:hover{ color: #fff; }
+body{
+  margin: 0; padding: 0;
+	font-family: 'Asap Bold', sans-serif;
+}
+nav,
+.toggle-switch{
+	background: rgba(0,75,148,.35);
+	color: #004B94;
+	font-size: 14px;
+	height: 30px;
+}
+nav{
+  margin: 0 auto;
+	display: flex;	
+}
+.toggle-switch{
+  position: absolute;
+  top: 50px;
+	right: 20px;	
+	width: 30px;height: 15px;
+	transition: background 0.5s;
+}
+.toggle-switch svg:last-child,
+.toggle-switch i:last-child{
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+.toggle-switch:after{
+	display: block;
+	content: "";
+	background: #0092D3;
+	width: 30px;height: 30px;
+	position: absolute;
+	top: 0;left: 0;
+	border-radius: 100%;
+	-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,.15),
+		inset -2px -2px 10px #0058AD,
+		inset 2px 2px 10px #C8E4F1;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.15),
+		inset -2px -2px 10px #0058AD,
+		inset 2px 2px 10px #C8E4F1;
+	transition: all 0.25s ease-in-out;
+}
+nav,main{
+  padding: 0 10px 10px;
+}
+nav #odclogo{
+  height: 32px;
+}
+nav .copyright,
+.toggle-switch span{
+	padding: 7px 10px;
+}
+nav .copyright a .fa-twitter{
+	margin: 0 0.5em;
+}
+.toggle-switch span{
+	display: block;
+}
+.toggle-screenreader,
+#theme{
+	display: none;
+}
+#theme:checked ~ label.toggle-switch:after{
+	transform: translate3d(100%,0,0);
+}
+#theme:checked ~ main{
+	background: #0058AD;
+	color: #C8E4F1;
+}
+#theme ~ main{
+	color: #004B94;
+	background: #C8E4F1;
+}
+#theme:checked ~ nav,
+#theme:checked ~ .toggle-switch{
+	color: #C8E4F1;
+}
+main{
+	padding: 70px 1em 1em;
+	transition: background 0.5s,color 0.5s
+}
+figure{
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+main header .title{
+	font-size: 22px;
+	text-transform: uppercase;
+	/*color: #004B94;*/
+	/*text-shadow: 1px 1px 1px #003263, -1px -1px 1px rgba(0,75,148,.5);*/
+	color: #003263;
+	margin-left: 10px;
+	display: inline-block;
+	line-height: 15px;
+	position: relative;
+	top: -10px;
+}
+.and{
+	font: 20px Arial;
+}
+nav .btn-group{
+	display: flex;
+}
+nav .btn-group a,
+figure.plaque{
+	background: #0092D3;
+	border-radius: 10px;
+	padding: 15px 15px 5px 15px;
+	display: inline-block;
+	-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,.15),
+		inset -4px -4px 10px #0058AD,
+		inset 4px 4px 10px #C8E4F1;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.15),
+		inset -4px -4px 10px #0058AD,
+		inset 4px 4px 10px #C8E4F1;
+}
+nav .btn-group a{
+	-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,.15),
+		inset -2px -2px 10px #0058AD,
+		inset 2px 2px 10px #C8E4F1;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.15),
+		inset -2px -2px 10px #0058AD,
+		inset 2px 2px 10px #C8E4F1;
+}
+nav .btn-group a:first-child{ border-radius: 10px 0 0 10px; }
+nav .btn-group a:last-child{ border-radius: 0 10px 10px 0; }
+nav .btn-group a{
+	padding: 7px 10px;
+	border-radius: 0;
+}
+nav .btn-group a:hover{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.15),
+		inset -1px -1px 5px #003263,
+		inset 1px 1px 5px #C8E4F1;
+	box-shadow: 0 0 5px rgba(0,0,0,.15),
+		inset -1px -1px 5px #003263,
+		inset 1px 1px 5px #C8E4F1;
+	background: #257ec5;
+}
+header,
+article{
+	width: 800px;
+	margin: 0 auto;	
+}
+article{
+	display: grid;
+	grid-template-columns: 530px auto;
+	/*grid-gap: 30px;*/
+	grid-gap: 40px;
+	margin-top: 60px;
+}
+article img,
+article video{
+	-webkit-box-shadow: 0 10px 6px -6px rgba(0,0,0,.35);
+	box-shadow: 0 10px 6px -6px rgba(0,0,0,.35);
+}
+article img,
+article span,
+article video{
+  /* flex: 530px auto; */
+  
+}
+article .copy h1{
+	margin-bottom: 0;
+}
+article .copy h2{
+	/*font-family: 'Asap Med', serif;*/
+	font-family: 'PT Serif', serif;
+	text-transform: lowercase;
+	margin-top: 0;
+	line-height: 1;
+}
+article .copy .text{
+	font-family: 'Asap Med', sans-serif;
+	line-height: 1.35;
+}
+article .copy .text .heading,
+article .copy .type{
+	font-family: 'PT Serif', serif;
+	text-transform: lowercase;
+	color: #0092D3;
+}
