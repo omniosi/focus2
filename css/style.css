@@ -9,7 +9,9 @@ a:hover{ color: #fff; }
 body{
   margin: 0;
   padding: 0;
-	font-family: 'Asap Bold', sans-serif;
+  font-family: 'Asap Bold', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
 }
 nav,
 .toggle-switch{
@@ -19,10 +21,9 @@ nav,
 }
 nav{
   position: absolute;
-  width: 82%;
-  margin: 0 6%;
   background: rgba(0,50,99,.7);
   border-radius: 0 0 10px 10px;
+  margin: 0 15px;
 }
 .toggle-switch{
   position: absolute;
@@ -55,17 +56,17 @@ nav,main{
 nav #odclogo{
   height: 32px;
 }
-/* nav .copyright, */
+/* nav .storyright, */
 .toggle-switch span{
 	padding: 7px 10px;
 }
-nav .copyright{
+nav .storyright{
   display: block;
   font-size: 11px;
   line-height: 1;
   color: #C8E4F1;
 }
-nav .copyright a .fa-twitter{
+nav .storyright a .fa-twitter{
 	margin: 0 0.5em;
 }
 .toggle-switch span{
@@ -148,11 +149,6 @@ nav .btn-group a:hover{
 nav .btn-group a .label{
   display: none;
 }
-header,
-article{
-	/* width: 800px; */
-	/* margin: 0 auto;	 */
-}
 article{
 	margin-top: 60px;
 }
@@ -167,23 +163,28 @@ article video{
   display: block;
   width: 100%  
 }
-article .copy h1{
-	margin-bottom: 0;
+article .story{
+  padding: 30px;
 }
-article .copy h2{
-	/*font-family: 'Asap Med', serif;*/
-	font-family: 'PT Serif', serif;
-	text-transform: lowercase;
-	margin-top: 0;
+article .story h1{
+  margin-bottom: 0;
+  font-size: 20px;
+}
+article .story h2{
+	text-transform: uppercase;
+  margin-top: 0;
+  font-size: 30px;
 	line-height: 1;
 }
-article .copy .text{
-	font-family: 'Asap Med', sans-serif;
-	line-height: 1.35;
+article .story h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  border-top: #C8E4F1 1px solid;
+  border-bottom: #C8E4F1 1px solid;
+  padding: 15px;
+  text-align: center;
 }
-article .copy .text .heading,
-article .copy .type{
-	font-family: 'PT Serif', serif;
-	text-transform: lowercase;
-	color: #0092D3;
+article .story p{
+  font-size: 18px;
+	line-height: 22px;
 }
