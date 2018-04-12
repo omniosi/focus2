@@ -26,9 +26,11 @@ nav{
 }
 .toggle-switch{
   position: absolute;
-  top: 50px;
-	right: 20px;	
-	width: 30px;height: 15px;
+  top: 40px;
+	right: 14%;	
+  width: 31px;height: 16px;
+  border: #0092D3 1px solid;
+  border-radius: 5px;
 	transition: background 0.5s;
 }
 .toggle-switch svg:last-child,
@@ -41,16 +43,10 @@ nav{
 	display: block;
 	content: "";
 	background: #0092D3;
-	width: 30px;height: 30px;
+	width: 12px;height: 12px;
 	position: absolute;
-	top: 0;left: 0;
-	border-radius: 100%;
-	-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,.15),
-		inset -2px -2px 10px #0058AD,
-		inset 2px 2px 10px #C8E4F1;
-	box-shadow: 2px 2px 10px rgba(0,0,0,.15),
-		inset -2px -2px 10px #0058AD,
-		inset 2px 2px 10px #C8E4F1;
+	top: 1px;left: 3px;
+  border-radius: 3px;
 	transition: all 0.25s ease-in-out;
 }
 nav,main{
@@ -95,7 +91,7 @@ nav .copyright a .fa-twitter{
 	color: #C8E4F1;
 }
 main{
-	padding: 70px 1em 1em;
+	padding: 70px 15px 15px;
 	transition: background 0.5s,color 0.5s
 }
 figure{
@@ -154,14 +150,10 @@ nav .btn-group a .label{
 }
 header,
 article{
-	width: 800px;
-	margin: 0 auto;	
+	/* width: 800px; */
+	/* margin: 0 auto;	 */
 }
 article{
-	display: grid;
-	grid-template-columns: 530px auto;
-	/*grid-gap: 30px;*/
-	grid-gap: 40px;
 	margin-top: 60px;
 }
 article img,
@@ -172,8 +164,8 @@ article video{
 article img,
 article span,
 article video{
-  /* flex: 530px auto; */
-  
+  display: block;
+  width: 100%  
 }
 article .copy h1{
 	margin-bottom: 0;
