@@ -17,11 +17,15 @@ body{
   font-weight: normal;
   font-size: 15px;
 }
-h1,h2,h3,h4,p{
+h1,h2,h3,h4,p,ul,li{
   margin: 0;
   padding: 0;
   padding-bottom: 0.75em;
 }
+p,ul,li{
+  padding-bottom: 0;
+}
+li{list-style: none}
 nav,
 .toggle-switch{
 	background: rgba(0,75,148,.35);
@@ -163,6 +167,7 @@ article{
 }
 article img,
 article video{
+	margin-bottom: 30px;
 	-webkit-box-shadow: 0 10px 6px -6px rgba(0,0,0,.35);
 	box-shadow: 0 10px 6px -6px rgba(0,0,0,.35);
 }
@@ -172,30 +177,57 @@ article video{
   display: block;
   width: 100%  
 }
+article .details,
 article .story{
-  padding: 30px;
+  padding: 0 30px;
 }
-article .story h1{
+article h1{
   font-size: 20px;
 }
-article .story h2{
+article h2{
 	text-transform: uppercase;
   margin-top: 0;
   font-size: 30px;
 	line-height: 1;
 }
-article .story h3{
+article h3{
   text-transform: uppercase;
   font-size: 16px;
-  border-top: #C8E4F1 1px solid;
-  border-bottom: #C8E4F1 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   padding: 15px;
-  margin: 1em 0 2em;
   text-align: center;
 }
-article .story p{
+article p{
   font-family: 'Asap', sans-serif;
   font-weight: normal;
   font-size: 18px;
 	line-height: 1.5;
+}
+article .details li{
+  padding: 3em 0;
+}
+article .details li:first-child{
+  padding-bottom: 0;
+}
+article .details .results,
+article .details .process{
+  position: relative;
+  border-bottom: 1px solid;
+}
+article .details .results{
+  border-bottom: none;
+  border-top: 1px solid;
+  margin-top: 30px;
+}
+article .details .results h4,
+article .details .process h4{
+  position: absolute;
+  bottom: 0; right: 0;
+  border-left: 1px solid;
+  padding: 5px 0 10px 15px;
+}
+article .details .results h4{
+  bottom: auto; top: 0;
+  padding: 10px 0 5px 15px;
 }
