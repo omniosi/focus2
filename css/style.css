@@ -37,6 +37,8 @@ nav{
   background: rgba(0,50,99,.7);
   border-radius: 0 0 10px 10px;
   margin: 0 15px;
+  margin: 0 4%;
+  width: 92%;
 }
 .toggle-switch{
   position: absolute;
@@ -74,13 +76,14 @@ nav #odclogo{
 .toggle-switch span{
 	padding: 7px 10px;
 }
-nav .storyright{
+nav .copyright{
   display: block;
   font-size: 11px;
   line-height: 1;
   color: #C8E4F1;
+  text-transform: uppercase;
 }
-nav .storyright a .fa-twitter{
+nav .copyright a .fa-twitter{
 	margin: 0 0.5em;
 }
 .toggle-switch span{
