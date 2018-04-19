@@ -34,7 +34,7 @@ nav,
 }
 nav{
   position: absolute;
-  background: rgba(0,50,99,.7);
+  background: rgba(0,50,99,1);
   border-radius: 0 0 10px 10px;
   margin: 0 15px;
   margin: 0 4%;
@@ -104,9 +104,11 @@ nav .copyright a .fa-twitter{
 	color: #C8E4F1;
 }
 #theme ~ main{
-	color: #004B94;
-	background: #C8E4F1;
+	color: #002c56;
+	background: #cfdfe6;
 }
+#theme ~ nav,
+#theme ~ .toggle-switch,
 #theme:checked ~ nav,
 #theme:checked ~ .toggle-switch{
 	color: #C8E4F1;
