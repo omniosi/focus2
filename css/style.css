@@ -28,15 +28,14 @@ p,ul,li{
 li{list-style: none}
 nav,
 .toggle-switch{
-	background: rgba(0,75,148,.35);
-	color: #004B94;
+	color: #C8E4F1;
 	font-size: 14px;
 }
 nav{
   position: absolute;
   background: rgba(0,50,99,1);
   border-radius: 0 0 10px 10px;
-  margin: 0 15px;
+  /* margin: 0 15px; */
   margin: 0 4%;
   width: 92%;
 }
