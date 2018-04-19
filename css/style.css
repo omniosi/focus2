@@ -42,18 +42,23 @@ nav{
 }
 .toggle-switch{
   position: absolute;
-  top: 40px;
-	right: 14%;	
+  top: 46px;
+	right: 30px;	
   width: 31px;height: 16px;
   border: #0092D3 1px solid;
   border-radius: 5px;
-	transition: background 0.5s;
+  transition: background 0.5s;
+  z-index: 100;
+}
+.toggle-switch svg{
+  position: absolute;
+  top: 1px; left: 1px;
+  width: 11px;height: 11px;
 }
 .toggle-switch svg:last-child,
 .toggle-switch i:last-child{
 	position: absolute;
-	top: 8px;
-	right: 10px;
+	top: 1px;left: auto;right: 1px;
 }
 .toggle-switch:after{
 	display: block;
@@ -66,8 +71,7 @@ nav{
 	transition: all 0.25s ease-in-out;
 }
 nav,main{
-  /* padding: 10px; */
-  padding: 15px;
+  padding: 15px 15px 10px;
 }
 nav #odclogo{
   height: 32px;
