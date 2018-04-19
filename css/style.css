@@ -76,7 +76,6 @@ nav,main{
 nav #odclogo{
   height: 32px;
 }
-/* nav .storyright, */
 .toggle-switch span{
 	padding: 7px 10px;
 }
@@ -125,8 +124,6 @@ figure{
 main header .title{
 	font-size: 22px;
 	text-transform: uppercase;
-	/*color: #004B94;*/
-	/*text-shadow: 1px 1px 1px #003263, -1px -1px 1px rgba(0,75,148,.5);*/
 	color: #003263;
 	margin-left: 10px;
 	display: inline-block;
@@ -156,15 +153,14 @@ nav .btn-group a{
 	border-radius: 0;
 }
 nav .btn-group a:hover{
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.15),
-		inset -1px -1px 5px #003263,
-		inset 1px 1px 5px #C8E4F1;
-	box-shadow: 0 0 5px rgba(0,0,0,.15),
-		inset -1px -1px 5px #003263,
-		inset 1px 1px 5px #C8E4F1;
-	background: #257ec5;
+	-webkit-box-shadow:
+    inset 1px 1px 1px 1px rgba(0,50,99,.5),
+    inset -1px -1px 1px 1px rgba(200,228,241,.25);
+  box-shadow: 
+		inset 1px 1px 1px 1px rgba(0,50,99,.5),
+		inset -1px -1px 1px 1px rgba(200,228,241,.25);
+  background: #257ec5;
+  opacity: 0.6;
 }
 nav .btn-group a .label{
   display: none;
