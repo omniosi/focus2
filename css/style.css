@@ -75,9 +75,6 @@ nav,main{
 nav #odclogo{
   height: 32px;
 }
-.toggle-switch span{
-	padding: 7px 10px;
-}
 nav .copyright{
   display: block;
   font-size: 11px;
@@ -89,6 +86,7 @@ nav .copyright a .fa-twitter{
 	margin: 0 0.5em;
 }
 .toggle-switch span{
+	padding: 7px 10px;
 	display: block;
 }
 .toggle-screenreader,
