@@ -26,8 +26,18 @@
     position: absolute;
   }
   .toggle-switch{
-    top: 22px;
+    top: 20px;
     right: 300px;
+    width: 38px;
+    height: 20px;
+  }
+  .toggle-switch:after{
+    width: 16px;
+    height: 16px;
+  }
+  .toggle-switch svg{
+    height: 16px;
+    left: 2px;
   }
   
   /* article{
