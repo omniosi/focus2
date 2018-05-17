@@ -60,6 +60,8 @@
   article .basics,
   article .details{
     display: flex;
+  }
+  article .top{
     align-items: flex-end;
   }
   /* article .details .results, */
@@ -71,9 +73,9 @@
     margin-right: 30px;
     padding: 0;
   }
-  article .details{
+  /* article .details{
     align-items: flex-start;
-  }
+  } */
   article .details,
   article .story{
     padding: 0;
