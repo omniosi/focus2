@@ -77,7 +77,13 @@ var render = function(template,elem){
 }
 
 function articleBlock(props){
-  return '<article role="article"><ul class="top"><li><video autoplay loop>'+Array.prototype.map.call(props,function(c){var prop = c.art;if(prop.elm === "source"){return '<source src="'+prop.src+'" type="'+prop.type+'">'}if(prop.elm === "img"){return '<img src="'+prop.src+'" alt="'+prop.alt+'">'}}).join("")+'</video></li><li class="story"><h1>'+props.brand+'</h1><h2>'+props.title+'</h2><p>'+props.story+'</p></li></ul><ul class="details"><li><h3>'+props.type+'</h3></li><li class="process"><h4>PROCESS</h4><p>'+props.process+'</p></li><li class="results"><h4>RESULTS</h4><p>'+props.results+'</p></li></ul></article>'
+  return '<article role="article"><ul class="top"><li><video autoplay loop>'+Array.prototype.map.call(props.art,function(prop){
+    function choose(){
+      if(prop.elm === "img"){return '<img src="'+prop.src+'" alt="'+prop.alt+'">'}
+      return '<source src="'+prop.src+'" type="'+prop.type+'">'
+    }
+    return choose()
+  }).join("")+'</video></li><li class="story"><h1>'+props.brand+'</h1><h2>'+props.title+'</h2><p>'+props.story+'</p></li></ul><ul class="details"><li><h3>'+props.type+'</h3></li><li class="process"><h4>PROCESS</h4><p>'+props.process+'</p></li><li class="results"><h4>RESULTS</h4><p>'+props.results+'</p></li></ul></article>'
 }
 
 function contentRender(){
