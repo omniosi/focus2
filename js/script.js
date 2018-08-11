@@ -3,7 +3,7 @@ var content = [
     "brand":"canon"
     ,"title":"project imagina10n"
     ,"type":"homepage takeover ad"
-    ,"art":[{
+    ,"video":[{
       "elm":"source"
       ,"src":"img/canon-nytimes-takeover-jamie-foxx.mp4"
       ,"type":"video/mp4"
@@ -22,6 +22,18 @@ var content = [
     ,"story":"After repeated failed attempts to get the text-destructive animation just right, I was approached to create this animation. I worked directly with the ad publisher and nytimes.com to make sure that this home-page takeover ad performed perfectly."
     ,"process":"Animation created in Adobe Flash with ActionScript code for the vendor's custom ad server code. Files uploaded to FTP server for delivery to outside vendor for deployment."
     ,"results":"The attention to detail in this animation, the ability to get up to speed quickly, and work well within the newyorktimes.com submissions guideline, and finally, the quick turnaround on my portion of this project solidified me as a go to designer/developer for the Canon team at Grey New York. This led to my role in future projects as a Creative Technologist."
+  }
+  ,{
+    "brand":"HARVEY NICHOLS"
+    ,"title":"DIGITAL AD"
+    ,"type":"Front-End Development & Responsive Design"
+    ,"image":[{
+      "src":"img/harvey-nichols_lipstick-stain-remover.jpg"
+      ,"alt":"Harvey Nichols digital ad"
+    }]
+    ,"story":"A personal project, and a personal challenge, to recreate a print ad as a responsive html page."
+    ,"process":"Convert an image of a print design into responsive HTML and CSS. Publish online and save the working code on <a href='https://github.com/omniosi/hnichols-css-ad' target='_blank'>github</a>"
+    ,"results":"Taking on this code challenge reinforced my love of responsive design and increased my personal confidence."
   }
   ,{
     "brand":"pkboo"
@@ -77,13 +89,19 @@ var render = function(template,elem){
 }
 
 function articleBlock(props){
-  return '<article role="article"><ul class="top"><li><video autoplay loop>'+Array.prototype.map.call(props.art,function(prop){
-    function choose(){
-      if(prop.elm === "img"){return '<img src="'+prop.src+'" alt="'+prop.alt+'">'}
-      return '<source src="'+prop.src+'" type="'+prop.type+'">'
+  function visual(){
+    if(props.video){
+      return '<video autoplay loop>'+Array.prototype.map.call(props.video,function(prop){
+        function choose(){
+          if(prop.elm === "img"){return '<img src="'+prop.src+'" alt="'+prop.alt+'">'}
+          return '<source src="'+prop.src+'" type="'+prop.type+'">'
+        }
+        return choose()
+      }).join("")+'</video>'
     }
-    return choose()
-  }).join("")+'</video></li><li class="story"><h1>'+props.brand+'</h1><h2>'+props.title+'</h2><p>'+props.story+'</p></li></ul><ul class="details"><li><h3>'+props.type+'</h3></li><li class="process"><h4>PROCESS</h4><p>'+props.process+'</p></li><li class="results"><h4>RESULTS</h4><p>'+props.results+'</p></li></ul></article>'
+    return '<img src="'+props.image.src+'" alt="'+props.image.alt+'">'
+  }
+  return '<article role="article"><ul class="top"><li>'+visual()+'</li><li class="story"><h1>'+props.brand+'</h1><h2>'+props.title+'</h2><p>'+props.story+'</p></li></ul><ul class="details"><li><h3>'+props.type+'</h3></li><li class="process"><h4>PROCESS</h4><p>'+props.process+'</p></li><li class="results"><h4>RESULTS</h4><p>'+props.results+'</p></li></ul></article>'
 }
 
 function contentRender(){
