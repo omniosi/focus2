@@ -36,6 +36,30 @@ var content = [
     ,"results":"Taking on this code challenge reinforced my love of responsive design and increased my personal confidence."
   }
   ,{
+    "brand":"GREY"
+    ,"title":"3D printed Trophy"
+    ,"type":"3D Modeling & Printing"
+    ,"image":{
+      "src":"img/grey-trophy_3d-print_600W.jpg"
+      ,"alt":"GREY trophy 3D print"
+    }
+    ,"story":"Part of my role as a Creative Technologist in advertising was evangelizing new technologies to spark our creatives. To this end, we created an <a href='http://www.psfk.com/2014/10/marriot-makerbot-grey-new-york-contest.html' target='_blank'>internal design competition</a> to concept a physical object to benefit one of our clients. Every contest needs a prize, so I created a trophy that pushed the technology."
+    ,"process":"Using a series of photos from various angles of an existing art piece for reference, I modeled a series of 3D objects in <a href='https://tinkercad.com/' target='_blank'>Autodesk Tinkercad</a>, exporting each object seperately to insure proper 3D printing. Printed the pieces of the trophy using the <a href='http://www.makerbot.com/' target='_blank'>Makerbot</a> Replicator 2, including pegs and holes so that the final object can be assembled without glue."
+    ,"results":"Housed in a clear plexiglass case, the winner of the prize was pretty happy to have and display in the office."
+  }
+  ,{
+    "brand":"Red Lobster"
+    ,"title":"Go Lobster Fishing"
+    ,"type":"Front-End Development"
+    ,"image":{
+      "src":"img/redLobster_parallax-site.jpg"
+      ,"alt":"Red Lobster - Go Lobster Fishing"
+    }
+    ,"story":"Splitting a custom illustration into a responsive, parallax-scrolling site made this project a lot of fun to work on. The small team of Art Director, myself as UI designer and developer, and a javascript developer, worked tirelessly on precise scroll-position animations while adding hidden easter eggs in the experience."
+    ,"process":"Convert approved designs into HTML, CSS, and Javascript, working with the brilliant Russell Weiss who made the parallax scrolling work across all the browsers that would allow it. Uploaded final designs to the Red Lobster server for deployment."
+    ,"results":"This story-telling site was touted as a pride project for my agency, making its way onto our digital show-reel. <a href='work/rl/index.html' target='_blank'>View the Micro-site</a>"
+  }
+  ,{
     "brand":"pkboo"
     ,"title":"ecommerce site"
     ,"type":"Website Design & Front-End Development"
