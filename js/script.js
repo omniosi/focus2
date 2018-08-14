@@ -3,6 +3,8 @@ var content = [
     "brand":"canon"
     ,"title":"project imagina10n"
     ,"type":"homepage takeover ad"
+    ,"link":null
+    ,"linktext":null
     ,"video":[{
       "elm":"source"
       ,"src":"img/canon-nytimes-takeover-jamie-foxx.mp4"
@@ -25,8 +27,10 @@ var content = [
   }
   ,{
     "brand":"HARVEY NICHOLS"
-    ,"title":"DIGITAL AD"
+    ,"title":"RESPONSIVE AD"
     ,"type":"Front-End Development & Responsive Design"
+    ,"link":"play/digital-print/nichols-ad/"
+    ,"linktext":"View HTML Ad"
     ,"image":{
       "src":"img/harvey-nichols_lipstick-stain-remover.jpg"
       ,"alt":"Harvey Nichols digital ad"
@@ -39,18 +43,22 @@ var content = [
     "brand":"GREY"
     ,"title":"3D printed Trophy"
     ,"type":"3D Modeling & Printing"
+    ,"link":null
+    ,"linktext":null
     ,"image":{
       "src":"img/grey-trophy_3d-print_600W.jpg"
       ,"alt":"GREY trophy 3D print"
     }
     ,"story":"Part of my role as a Creative Technologist in advertising was evangelizing new technologies to spark our creatives. To this end, we created an <a href='http://www.psfk.com/2014/10/marriot-makerbot-grey-new-york-contest.html' target='_blank'>internal design competition</a> to concept a physical object to benefit one of our clients. Every contest needs a prize, so I created a trophy that pushed the technology."
     ,"process":"Using a series of photos from various angles of an existing art piece for reference, I modeled a series of 3D objects in <a href='https://tinkercad.com/' target='_blank'>Autodesk Tinkercad</a>, exporting each object seperately to insure proper 3D printing. Printed the pieces of the trophy using the <a href='http://www.makerbot.com/' target='_blank'>Makerbot</a> Replicator 2, including pegs and holes so that the final object can be assembled without glue."
-    ,"results":"Housed in a clear plexiglass case, the winner of the prize was pretty happy to have and display in the office."
+    ,"results":"Housed in a clear plexiglass case, this Trophy was proudly displayed on the desk of the contest winner. The trophy iteself was good enough to impress the Makerbot people. For myself, I was happy to have access to a 3D printer and grow my 3D design skills."
   }
   ,{
     "brand":"Red Lobster"
     ,"title":"Go Lobster Fishing"
     ,"type":"Front-End Development"
+    ,"link":"work/rl/index.html"
+    ,"linktext":"View HTML Website"
     ,"image":{
       "src":"img/redLobster_parallax-site.jpg"
       ,"alt":"Red Lobster - Go Lobster Fishing"
@@ -63,6 +71,8 @@ var content = [
     "brand":"pkboo"
     ,"title":"ecommerce site"
     ,"type":"Website Design & Front-End Development"
+    ,"link":"work/pkboo/index.html"
+    ,"linktext":"View HTML Website"
     ,"image":{
       "src":"img/pkboo_site_home_600W.jpg"
       ,"alt":"pkbookids.com homepage"
@@ -101,6 +111,12 @@ var render = function(template,elem){
 }
 
 function articleBlock(props){
+  function linkbtn(){
+    if(props.link !== null){
+      return '<a class="button" href="'+ props.link +'" target="_blank">'+ props.linktext+'</a>'
+    }
+    return ""
+  }
   function visual(){
     if(props.video){
       return '<video autoplay loop>'+Array.prototype.map.call(props.video,function(prop){
@@ -115,7 +131,7 @@ function articleBlock(props){
       return '<img src="'+props.image.src+'" alt="'+props.image.alt+'">'
     }
   }
-  return '<article role="article"><ul class="top"><li>'+visual()+'</li><li class="story"><h1>'+props.brand+'</h1><h2>'+props.title+'</h2><p>'+props.story+'</p></li></ul><ul class="details"><li><h3>'+props.type+'</h3></li><li class="process"><h4>PROCESS</h4><p>'+props.process+'</p></li><li class="results"><h4>RESULTS</h4><p>'+props.results+'</p></li></ul></article>'
+  return '<article role="article"><ul class="top"><li>'+visual()+'</li><li class="story"><h1>'+props.brand+'</h1><h2>'+props.title+'</h2><p>'+props.story+'</p></li></ul><ul class="details"><li><h3>'+props.type+'</h3>'+linkbtn()+'</li><li class="process"><h4>PROCESS</h4><p>'+props.process+'</p></li><li class="results"><h4>RESULTS</h4><p>'+props.results+'</p></li></ul></article>'
 }
 
 function contentRender(){

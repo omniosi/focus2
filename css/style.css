@@ -197,7 +197,6 @@ article h3{
   text-transform: uppercase;
   font-size: 16px;
   border-top: 1px solid;
-  border-bottom: 1px solid;
   padding: 15px;
   text-align: center;
 }
@@ -235,3 +234,9 @@ article .details .results h4{
   bottom: auto; top: 0;
   padding: 10px 0 5px 15px;
 }
+article a{ opacity: 0.5 }
+article a.button{
+  text-align: center;
+  display: block;
+}
+article a:hover{ opacity: 1 }
