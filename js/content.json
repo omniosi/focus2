@@ -61,7 +61,7 @@
   }
   ,"story":"Splitting a custom illustration into a responsive, parallax-scrolling site made this project a lot of fun to work on. The small team of Art Director, myself as UI designer and developer, and a javascript developer, worked tirelessly on precise scroll-position animations while adding hidden easter eggs in the experience."
   ,"process":"Convert approved designs into HTML, CSS, and Javascript, working with the brilliant Russell Weiss who made the parallax scrolling work across all the browsers that would allow it. Uploaded final designs to the Red Lobster server for deployment."
-  ,"results":"This story-telling site was touted as a pride project for my agency, making its way onto our digital show-reel. <a href='work/rl/index.html' target='_blank'>View the Micro-site</a>"
+  ,"results":"This story-telling site was touted as a pride project for my agency, making its way onto our digital show-reel."
 },{
   "brand":"pkboo"
   ,"title":"ecommerce site"
@@ -75,4 +75,42 @@
   ,"story":"Starting from the logo design for this stylish baby accessory brand, I was able to match a sense of fun with practically, which is exactly the brand ethos of the client. For this project, I created the logo and the site design, then coded the static site that was then passed to the Shopify/Magento developer to add the ecommerce code."
   ,"process":"Layout in Adobe InDesign with retouching in Photoshop. Convert approved designs into HTML and CSS. Handoff final coded layouts to back-end developer to incorporate Shopify ecommerce functionality."
   ,"results":"The fun and versatile logo inspired new uses on the physical product; from labels and stamps to plans of a stuffed, plush toy. The website design immediately led to sales and was featured in press for the company."
+},{
+  "brand":"Wonderbread"
+  ,"title":"Facebook Contest"
+  ,"type":"Website Design & Front-End Development"
+  ,"link":"work/pkboo/index.html"
+  ,"linktext":"View HTML Website"
+  ,"image":{
+    "src":"img/wonderBread_FB_a.jpg"
+    ,"alt":"Wonderbread Facebook Contest"
+  }
+  ,"story":"This design came from very little in the way of a brief; just a short description of the contest. I am most proud of repurposing elements of the Wonderbread logo as a framing device for images of their idealized customers."
+  ,"process":"Layout created in Adobe InDesign, then converted to layered art in Photoshop. Files uploaded to FTP server for delivery to outside vendor for development."
+  ,"results":""
+},{
+  "brand":"earwormsMBT"
+  ,"title":"interactive video/audio mixer micro-site"
+  ,"type":"Website Design & Front-End Development"
+  ,"link":null
+  ,"linktext":null
+  ,"video":[{
+    "elm":"source"
+    ,"src":"img/earwormsMBT-animated.mp4"
+    ,"type":"video/mp4"
+    ,"alt":""
+  },{
+    "elm":"source"
+    ,"src":"img/earwormsMBT-animated.webm"
+    ,"type":"video/webm"
+    ,"alt":""
+  },{
+    "elm":"img"
+    ,"src":"img/earwormsMBT-animated.jpg"
+    ,"type":""
+    ,"alt":"earwormsMBT interactive mixer micro-site"
+  }]
+  ,"story":"Taking the remote-working model to its furthest extreme, I proposed an enhancement to this audio-only, language-learning product by prototyping, presenting, and selling this service, all while never once meeting the clients in person."
+  ,"process":"Create art in Adobe Illustrator and Photoshop and animate using the earworms audio in AfterEffects. Create a series of demo animations and provide to the client as both Flash video online and as downloadable MP4 files. Compress files for quality and quick download time."
+  ,"results":"The prototypes were used in client presentations with airlines as a possible partnership for in-flight, business-class, educational content for their seat-back screens."
 }]

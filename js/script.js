@@ -75,5 +75,3 @@ function contentRender(j){
     return articleBlock(a)
   }).join('')
 }
-
-// render(contentRender(json),'main')
