@@ -1,7 +1,11 @@
+var data = 'js/content.json'
+if(window.location.href.indexOf('design')){ data = 'js/design.json' }
+
 function loadJSON(callback){
   var xhr = new XMLHttpRequest()
   xhr.overrideMimeType("application/json")
-  xhr.open('GET','js/content.json', true)
+  // xhr.open('GET','js/content.json', true)
+  xhr.open('GET',data, true)
   xhr.onreadystatechange = function(){
     if(xhr.readyState == 4 && xhr.status == "200"){
       // .open will NOT return a IDBCursorWithValue, simply returning undefined in async mode, so use a callback

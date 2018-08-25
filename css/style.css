@@ -27,19 +27,35 @@ p,ul,li{
 }
 li{list-style: none}
 nav,
+footer,
 .toggle-switch{
 	color: #C8E4F1;
 	font-size: 14px;
 }
+footer,
 nav{
   position: fixed;
   z-index: 1000;
   background: rgba(0,50,99,1);
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 14px 14px;
   /* margin: 0 15px; */
   margin: 0 4%;
   width: 92%;
 }
+footer{
+  position: relative;
+  top: auto;
+  bottom: 0;
+  /* border-radius: 14px 14px 0 0; */
+  border-radius: 0;
+  width: 100%;
+  margin: 0;
+}
+/* footer a{
+  padding: 4px 10px;
+  background: #0058AD;
+  border-radius: 6px;
+} */
 .toggle-switch{
   position: fixed;
   top: 46px;
@@ -70,12 +86,11 @@ nav{
   border-radius: 3px;
 	transition: all 0.25s ease-in-out;
 }
-nav,main{
+nav,footer,main{
   padding: 15px 15px 10px;
 }
-nav #odclogo{
-  height: 32px;
-}
+nav #odclogo{ height: 32px; }
+footer .odclogo{ height: 18px; opacity:0.35}
 nav .copyright{
   display: block;
   font-size: 11px;
@@ -134,25 +149,35 @@ main header .title{
 .and{
 	font: 20px Arial;
 }
+footer .btn-group,
 nav .btn-group{
   position: absolute;
   top: 17px;
   right: 15px;
 }
-nav .btn-group a,
+footer .btn-group{
+  right: auto;
+  left: 15px;
+}
+footer .link-group{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.btn-group a,
 figure.plaque{
 	background: #0092D3;
 	border-radius: 10px;
 	padding: 15px 15px 5px;
 	display: inline-block;
 }
-nav .btn-group a:first-child{ border-radius: 10px 0 0 10px; }
-nav .btn-group a:last-child{ border-radius: 0 10px 10px 0; }
-nav .btn-group a{
+.btn-group a:first-child{ border-radius: 7px 0 0 7px; }
+.btn-group a:last-child{ border-radius: 0 7px 7px 0; }
+.btn-group a{
 	padding: 4px 10px;
 	border-radius: 0;
 }
-nav .btn-group a:hover{
+.btn-group a:hover{
 	-webkit-box-shadow:
     inset 1px 1px 1px 1px rgba(0,50,99,.5),
     inset -1px -1px 1px 1px rgba(200,228,241,.25);
@@ -162,7 +187,7 @@ nav .btn-group a:hover{
   background: #257ec5;
   opacity: 0.6;
 }
-nav .btn-group a .label{
+.btn-group a .label{
   display: none;
 }
 article{
