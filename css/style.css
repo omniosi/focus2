@@ -163,6 +163,10 @@ footer .link-group{
   position: absolute;
   top: 15px;
   right: 15px;
+  /* opacity: 0.35; */
+}
+footer .link-group a{
+  /* opacity: 1; */
 }
 .btn-group a,
 figure.plaque{

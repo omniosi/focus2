@@ -79,3 +79,9 @@ function contentRender(j){
     return articleBlock(a)
   }).join('')
 }
+
+function footer(){
+  return '<span class="link-group"><a href="design.html" target="_blank">design</a> / <a href="art.html" target="_blank">art</a></span><img src="img/omnious_logo_W.svg" alt="omnio.us" class="odclogo">'
+}
+
+render(footer,'footer')
