@@ -1,0 +1,91 @@
+[{
+  "brand":"Viral Vinyl"
+  ,"title":"mmHome"
+  ,"type":"Motion Graphic"
+  ,"link":null
+  ,"linktext":null
+  ,"video":[{
+    "elm":"source"
+    ,"src":"img/omni_mmHomePromo.mp4"
+    ,"type":"video/mp4"
+    ,"alt":""
+  },{
+    "elm":"source"
+    ,"src":"img/omni_mmHomePromo.webm"
+    ,"type":"video/webm"
+    ,"alt":""
+  },{
+    "elm":"img"
+    ,"src":"img/i2d_insert.jpg"
+    ,"type":""
+    ,"alt":"DJ Omni - Invitation 2 Dance - CD packaging"
+  }]
+  ,"story":"An animated promotional piece for DJ Omni's “mmHome” mix."
+  ,"process":"Art created in Adobe Illustrator and Photoshop. Animation and sound editing in Adobe After Effects."
+  ,"results":""
+},{
+  "brand":null
+  ,"title":"Pantene"
+  ,"type":"Video Edit"
+  ,"link":null
+  ,"linktext":null
+  ,"image":{
+    "src":"img/AlwaysSmooth-snglPG_v1.jpg"
+    ,"alt":"P&G Pantene “Always Smooth” ad"
+  }
+  ,"story":"Create comp page and spread layouts for a new P&G Pantene product launch for Grey Worldwide working from Art Director’s sketches. Create page and spread versions of signature “wave” art to be used on all subsequent ads. Retouch and extend provided beauty art as necessary. Create quick clipping paths and masks for product shots. Combine all elements into a cohesive page and spread layout with multiple photos, products, and copy versions."
+  ,"process":"Layout in Adobe InDesign with retouching in Photoshop and the logo and “wave art” done in Illustrator. Provide files as Lo-Res PDFs via e-mail for approval and print in-house for presentation."
+  ,"results":"Art Director was very pleased with the  layouts and commissioned two other versions. The “wave” art was used in subsequent print ads."
+},{
+  "brand":"Chili Systems"
+  ,"title":"The Chili Box"
+  ,"type":"Packaging"
+  ,"link":null
+  ,"linktext":null
+  ,"image":{
+    "src":"img/cs1010die-cutLR2.jpg"
+    ,"alt":"The Chili Box package back"
+  }
+  ,"story":"Create illustrations, retouch photography, design layout, and create packaging mechanical for Chili Systems “the Chili Box” product. Work with Art Director to create the final look of the product art and design."
+  ,"process":"Created in Adobe InDesign and converted to Illustrator EPS format for printer. Art created in Photoshop  and Illustrator."
+  ,"results":"Not much is known about this project other than the fact that the client was satisfied and the product was on shelves in select stores."
+},{
+  "brand":"NYC"
+  ,"title":"Host Committee"
+  ,"type":"Brochure"
+  ,"link":null
+  ,"linktext":null
+  ,"image":{
+    "src":"img/NHC-CO-012_ThemeDaysBK_LR.jpg"
+    ,"alt":"NYC Host Committee brochure"
+  }
+  ,"story":"Create the layout and  mechanical for a brochure from the existing outdoor banner ad art to promote The NYC Host Committee’s 2004 Republican National Convention “Experience NYC” themed days for Grey Worldwide. Format provided text into a schedule of events. Create  art for the back of the brochure."
+  ,"process":"Created in QuarkXPress with duotone and 4-color art created in Adobe Photoshop. This print-ready, 4-color, two-sided, tri-fold brochure was collected to disk for print production."
+  ,"results":"This brochure achieved the goal of creating awareness and being an informative addition to the RNC’s week of events in NYC. It even garnered favorable reviews from the then sitting President of the United States."
+},{
+  "brand":"Community Service Society of NY"
+  ,"title":""
+  ,"type":"Invitation Package"
+  ,"link":null
+  ,"linktext":null
+  ,"image":{
+    "src":"img/CSSAwebinv-1LR.jpg"
+    ,"alt":"CSSNY invitation cover"
+  }
+  ,"story":"Create an eye-catching illustrated cover and layout the invitation, reply cards, and envelopes for the Community Service Society of New York’s “CSS Associates” Cocktail Reception. Coordinate print production for all of the designs. Limit the design to 2-color for cost."
+  ,"process":"Illustration created in Adobe Illustrator and layouts done in InDesign. The final files were collected to disk for print production."
+  ,"results":"The invitation package received rave reviews for CSSNY and continued a long working relationship with the organization."
+},{
+  "brand":"JC Penney"
+  ,"title":"Strut Your Struff Campaign"
+  ,"type":"Integrated Campaign Concept"
+  ,"link":null
+  ,"linktext":null
+  ,"image":{
+    "src":"img/jcpSYS_campaign.gif"
+    ,"alt":"JC Penney Strut Your Struff Campaign"
+  }
+  ,"story":"Create an integrated marketing campaign for the established JC Penney brand. Reposition JC Penney as a hip, current, and desirable but budget-conscious option for the fashion minded."
+  ,"process":"The concepts were written on the go using Evernote. The layouts were created in Adobe InDesign with original art and retouching done in Photoshop and the logo created in Illustrator. The final concepts were saved as a PDF file for distribution."
+  ,"results":""
+}]
