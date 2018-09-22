@@ -1,11 +1,12 @@
 @media (min-width:800px) {
 
-  nav, article{
+  footer,nav, article{
     width: 800px;margin: 0 auto;
   }
   nav, main{
     top: 0;
   }
+  footer,
   nav{
     position: fixed;
     z-index: 10;

@@ -1,5 +1,5 @@
 [{
-  "brand":null
+  "brand":""
   ,"title":"Tha Rub (light)"
   ,"type":"Illustration"
   ,"link":null
@@ -8,9 +8,9 @@
     "src":"img/omnious_thaRub_light_600W.jpg"
     ,"alt":"Tha Rub (light)"
   }
-  ,"story":"Illustration {with alternate}"
+  ,"story":"Illustration, with an alternate"
   ,"process":"Sketched art colored and manipulated in Adobe Photoshop."
-  ,"results":null
+  ,"results":""
 },{
   "brand":null
   ,"title":"Pantene"

@@ -95,7 +95,7 @@ function loadNav(){
   return '<a href="index.html"><img src="img/omnio-us_logo.png" alt="omnio.us" id="odclogo"></a><span class="copyright">©2017 ornette coleman <a href="https://twitter.com/omniosi" target="_blank"><i class="fab fa-twitter"></i></a></span><span class="btn-group"><a href="https://github.com/omniosi/" target="_blank"><i class="fab fa-github"></i><span class="label">github</span></a><a href="https://www.linkedin.com/in/ornettecoleman/" target="_blank"><i class="fab fa-linkedin"></i><span class="label">linkedin</span></a><a href="files/resume_ornette-coleman_ux-engineer.pdf" target="_blank"><i class="fas fa-file"></i><span class="label">resumé</span></a></span>'
 }
 function loadFooter(){
-  return '<span class="link-group"><a href="index.html" onclick="dataLoad()" target="_self">development</a> / <a href="design.html" onclick="dataLoad()" target="_self">design</a> / <a href="art.html" onclick="dataLoad()" target="_self">art</a> / <a href="sound.html" onclick="dataLoad()" target="_self">sound</a></span><img src="img/omnious_logo_W.svg" alt="omnio.us" class="odclogo">'
+  return '<span class="link-group"><a href="index.html" onclick="dataLoad()" target="_self">development</a> / <a href="design.html" onclick="dataLoad()" target="_self">design</a> / <a href="art.html" onclick="dataLoad()" target="_self">art</a> / <a href="sound.html" onclick="dataLoad()" target="_self">sound</a></span><span class="note">This site was coded by hand by Ornette Coleman</span>'
 }
 
 render(loadNav,'nav')
