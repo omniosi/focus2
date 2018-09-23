@@ -118,6 +118,7 @@ nav .copyright a .fa-twitter{
 	color: #C8E4F1;
 }
 main{
+  display: block;
 	padding: 70px 15px 15px;
 	transition: background 0.5s,color 0.5s
 }
@@ -182,6 +183,7 @@ figure.plaque{
   display: none;
 }
 article{
+  display: block;
 	margin-top: 30px;
 }
 article img,

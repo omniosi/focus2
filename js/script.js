@@ -85,7 +85,8 @@ function articleBlock(props){
 }
 
 function contentRender(j){
-  return j.map(a => {
+  // return j.map(a => {
+  return Array.prototype.map.call(j,function(a) {
     // console.log('a = ',a)
     return articleBlock(a)
   }).join('')
