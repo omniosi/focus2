@@ -46,7 +46,6 @@ footer{
   bottom: 0;
   border-radius: 14px 14px 0 0;
 }
-footer span.note{ font-size: 12px; opacity: 0.75; }
 .toggle-switch{
   position: fixed;
   top: 46px;
@@ -152,10 +151,13 @@ footer .btn-group{
   left: 15px;
 }
 footer .link-group{
-  position: absolute;
-  top: 15px;
-  right: 15px;
+  position: relative;
+  display: block;
+  text-align: center;
 }
+/* footer span.note{ font-size: 12px; opacity: 0.75; } */
+footer span.note{ font-size: 12px; display: none; }
+
 .btn-group a,
 figure.plaque{
 	background: #0092D3;
