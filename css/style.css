@@ -155,7 +155,6 @@ footer .link-group{
   display: block;
   text-align: center;
 }
-/* footer span.note{ font-size: 12px; opacity: 0.75; } */
 footer span.note{ font-size: 12px; display: none; }
 
 .btn-group a,

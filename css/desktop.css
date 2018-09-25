@@ -25,9 +25,6 @@
     position: relative;
     top: 10px; left: 10px;
   }
-  nav .copyright a{
-    position: absolute;
-  }
   .toggle-switch{
     top: 20px;
     right: 300px;
