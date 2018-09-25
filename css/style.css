@@ -239,6 +239,7 @@ article .details .results,
 article .details .process{
   position: relative;
   border-bottom: 1px solid;
+  min-height: 105px;
 }
 article .details .results{
   border-bottom: none;

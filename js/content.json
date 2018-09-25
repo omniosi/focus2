@@ -16,7 +16,7 @@
     ,"alt":""
   },{
     "elm":"img"
-    ,"src":"img/canon_imagina10n_takeover.jpg"
+    ,"src":"img/530w/canon_imagina10n_takeover.jpg"
     ,"type":""
     ,"alt":"Canon Project Imagina10n takeover ad"
   }]
@@ -30,7 +30,7 @@
   ,"link":"play/digital-print/nichols-ad/"
   ,"linktext":"View HTML Ad"
   ,"image":{
-    "src":"img/harvey-nichols_lipstick-stain-remover.jpg"
+    "src":"img/530w/harvey-nichols_lipstick-stain-remover.jpg"
     ,"alt":"Harvey Nichols digital ad"
   }
   ,"story":"A personal project, and a personal challenge, to recreate a print ad as a responsive html page."
@@ -43,7 +43,7 @@
   ,"link":null
   ,"linktext":null
   ,"image":{
-    "src":"img/grey-trophy_3d-print_600W.jpg"
+    "src":"img/530w/grey-trophy_3d-print.jpg"
     ,"alt":"GREY trophy 3D print"
   }
   ,"story":"Part of my role as a Creative Technologist in advertising was evangelizing new technologies to spark our creatives. To this end, we created an <a href='http://www.psfk.com/2014/10/marriot-makerbot-grey-new-york-contest.html' target='_blank' rel='noopener'>internal design competition</a> to concept a physical object to benefit one of our clients. Every contest needs a prize, so I created a trophy that pushed the technology."
@@ -56,7 +56,7 @@
   ,"link":"work/rl/index.html"
   ,"linktext":"View HTML Website"
   ,"image":{
-    "src":"img/redLobster_parallax-site.jpg"
+    "src":"img/530w/redLobster_parallax-site.jpg"
     ,"alt":"Red Lobster - Go Lobster Fishing"
   }
   ,"story":"Splitting a custom illustration into a responsive, parallax-scrolling site made this project a lot of fun to work on. The small team of Art Director, myself as UI designer and developer, and a javascript developer, worked tirelessly on precise scroll-position animations while adding hidden easter eggs in the experience."
@@ -69,7 +69,7 @@
   ,"link":"work/pkboo/index.html"
   ,"linktext":"View HTML Website"
   ,"image":{
-    "src":"img/pkboo_site_home_600W.jpg"
+    "src":"img/530w/pkboo_site_home.jpg"
     ,"alt":"pkbookids.com homepage"
   }
   ,"story":"Starting from the logo design for this stylish baby accessory brand, I was able to match a sense of fun with practically, which is exactly the brand ethos of the client. For this project, I created the logo and the site design, then coded the static site that was then passed to the Shopify/Magento developer to add the ecommerce code."
@@ -82,7 +82,7 @@
   ,"link":"work/pkboo/index.html"
   ,"linktext":"View HTML Website"
   ,"image":{
-    "src":"img/wonderBread_FB_a.jpg"
+    "src":"img/530w/wonderBread_FB_s1.jpg"
     ,"alt":"Wonderbread Facebook Contest"
   }
   ,"story":"This design came from very little in the way of a brief; just a short description of the contest. This was a quick turn-around design project for a branded Facebook contest page. The design team consisted of myself and one other designer. The selected design would be developed by an outside vendor."
@@ -106,7 +106,7 @@
     ,"alt":""
   },{
     "elm":"img"
-    ,"src":"img/earwormsMBT-animated.jpg"
+    ,"src":"img/530w/earwormsMBT_ui.jpg"
     ,"type":""
     ,"alt":"earwormsMBT interactive mixer micro-site"
   }]
