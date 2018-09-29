@@ -41,11 +41,6 @@ nav{
   margin: 0 4%;
   width: 92%;
 }
-footer{
-  top: auto;
-  bottom: 0;
-  border-radius: 14px 14px 0 0;
-}
 .toggle-switch{
   position: fixed;
   top: 46px;
@@ -78,6 +73,13 @@ footer{
 }
 nav,footer,main{
   padding: 15px 15px 10px;
+}
+footer{
+  top: auto;
+  bottom: 0;
+  border-radius: 14px 14px 0 0;
+  font-size: 18px;
+  padding: 15px;
 }
 nav #odclogo{ height: 32px; }
 footer .odclogo{ height: 18px; opacity:0.35}
