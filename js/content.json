@@ -1,116 +1,132 @@
-[{
-  "brand":"canon"
-  ,"title":"project imagina10n"
-  ,"type":"homepage takeover ad"
-  ,"link":null
-  ,"linktext":null
-  ,"video":[{
-    "elm":"source"
-    ,"src":"img/canon-nytimes-takeover-jamie-foxx.mp4"
-    ,"type":"video/mp4"
-    ,"alt":""
-  },{
-    "elm":"source"
-    ,"src":"img/canon-nytimes-takeover-jamie-foxx.webm"
-    ,"type":"video/webm"
-    ,"alt":""
-  },{
-    "elm":"img"
-    ,"src":"img/530w/canon_imagina10n_takeover.jpg"
-    ,"type":""
-    ,"alt":"Canon Project Imagina10n takeover ad"
-  }]
-  ,"story":"After repeated failed attempts to get the text-destructive animation just right, I was approached to create this animation. I worked directly with the ad publisher and nytimes.com to make sure that this home-page takeover ad performed perfectly."
-  ,"process":"Animation created in Adobe Flash with ActionScript code for the vendor's custom ad server code. Files uploaded to FTP server for delivery to outside vendor for deployment."
-  ,"results":"The attention to detail in this animation, the ability to get up to speed quickly, and work well within the newyorktimes.com submissions guideline, and finally, the quick turnaround on my portion of this project solidified me as a go to designer/developer for the Canon team at Grey New York. This led to my role in future projects as a Creative Technologist."
-},{
-  "brand":"HARVEY NICHOLS"
-  ,"title":"RESPONSIVE AD"
-  ,"type":"Front-End Development & Responsive Design"
-  ,"link":"play/digital-print/nichols-ad/"
-  ,"linktext":"View HTML Ad"
-  ,"image":{
-    "src":"img/530w/harvey-nichols_lipstick-stain-remover.jpg"
-    ,"alt":"Harvey Nichols digital ad"
+[
+  {
+    "brand": "canon",
+    "title": "project imagina10n",
+    "type": "homepage takeover ad",
+    "link": null,
+    "linktext": null,
+    "video": [
+      {
+        "elm": "source",
+        "src": "img/canon-nytimes-takeover-jamie-foxx.mp4",
+        "type": "video/mp4",
+        "alt": ""
+      },
+      {
+        "elm": "source",
+        "src": "img/canon-nytimes-takeover-jamie-foxx.webm",
+        "type": "video/webm",
+        "alt": ""
+      },
+      {
+        "elm": "img",
+        "src": "img/530w/canon_imagina10n_takeover.jpg",
+        "type": "",
+        "alt": "Canon Project Imagina10n takeover ad"
+      }
+    ],
+    "story": "After repeated failed attempts to get the text-destructive animation just right, I was approached to create this animation. I worked directly with the ad publisher and nytimes.com to make sure that this home-page takeover ad performed perfectly.",
+    "process": "Animation created in Adobe Flash with ActionScript code for the vendor's custom ad server code. Files uploaded to FTP server for delivery to outside vendor for deployment.",
+    "results": "The attention to detail in this animation, the ability to get up to speed quickly, and work well within the newyorktimes.com submissions guideline, and finally, the quick turnaround on my portion of this project solidified me as a go to designer/developer for the Canon team at Grey New York. This led to my role in future projects as a Creative Technologist."
+  },
+  {
+    "brand": "HARVEY NICHOLS",
+    "title": "RESPONSIVE AD",
+    "type": "Front-End Development & Responsive Design",
+    "link": "play/digital-print/nichols-ad/",
+    "linktext": "View HTML Ad",
+    "image": {
+      "src": "img/530w/harvey-nichols_lipstick-stain-remover.jpg",
+      "alt": "Harvey Nichols digital ad"
+    },
+    "story": "A personal project, and a personal challenge, to recreate a print ad as a responsive html page.",
+    "process": "Convert an image of a print design into responsive HTML and CSS. Publish online and save the working code on <a href='https://github.com/omniosi/hnichols-css-ad' target='_blank' rel='noopener'>github</a>",
+    "results": "Taking on this code challenge reinforced my love of responsive design and increased my personal confidence."
+  },
+  {
+    "brand": "GREY",
+    "title": "3D printed Trophy",
+    "type": "3D Modeling & Printing",
+    "link": null,
+    "linktext": null,
+    "image": {
+      "src": "img/530w/grey-trophy_3d-print.jpg",
+      "alt": "GREY trophy 3D print"
+    },
+    "story": "Part of my role as a Creative Technologist in advertising was evangelizing new technologies to spark our creatives. To this end, we created an <a href='http://www.psfk.com/2014/10/marriot-makerbot-grey-new-york-contest.html' target='_blank' rel='noopener'>internal design competition</a> to concept a physical object to benefit one of our clients. Every contest needs a prize, so I created a trophy that pushed the technology.",
+    "process": "Using a series of photos from various angles of an existing art piece for reference, I modeled a series of 3D objects in <a href='https://tinkercad.com/' target='_blank' rel='noopener'>Autodesk Tinkercad</a>, exporting each object seperately to insure proper 3D printing. Printed the pieces of the trophy using the <a href='http://www.makerbot.com/' target='_blank' rel='noopener'>Makerbot</a> Replicator 2, including pegs and holes so that the final object can be assembled without glue.",
+    "results": "Housed in a clear plexiglass case, this Trophy was proudly displayed on the desk of the contest winner. The trophy iteself was good enough to impress the Makerbot people. For myself, I was happy to have access to a 3D printer and grow my 3D design skills."
+  },
+  {
+    "brand": "Red Lobster",
+    "title": "Go Lobster Fishing",
+    "type": "Front-End Development",
+    "link": "work/rl/index.html",
+    "linktext": "View HTML Website",
+    "image": {
+      "src": "img/530w/redLobster_parallax-site.jpg",
+      "alt": "Red Lobster - Go Lobster Fishing"
+    },
+    "story": "Splitting a custom illustration into a responsive, parallax-scrolling site made this project a lot of fun to work on. The small team of Art Director, myself as UI designer and developer, and a javascript developer, worked tirelessly on precise scroll-position animations while adding hidden easter eggs in the experience.",
+    "process": "Convert approved designs into HTML, CSS, and Javascript, working with the brilliant Russell Weiss who made the parallax scrolling work across all the browsers that would allow it. Uploaded final designs to the Red Lobster server for deployment.",
+    "results": "This story-telling site was touted as a pride project for my agency, making its way onto our digital show-reel."
+  },
+  {
+    "brand": "pkboo",
+    "title": "ecommerce site",
+    "type": "Website Design & Front-End Development",
+    "link": "work/pkboo/index.html",
+    "linktext": "View HTML Website",
+    "image": {
+      "src": "img/530w/pkboo_site_home.jpg",
+      "alt": "pkbookids.com homepage"
+    },
+    "story": "Starting from the logo design for this stylish baby accessory brand, I was able to match a sense of fun with practically, which is exactly the brand ethos of the client. For this project, I created the logo and the site design, then coded the static site that was then passed to the Shopify/Magento developer to add the ecommerce code.",
+    "process": "Layout in Adobe InDesign with retouching in Photoshop. Convert approved designs into HTML and CSS. Handoff final coded layouts to back-end developer to incorporate Shopify ecommerce functionality.",
+    "results": "The fun and versatile logo inspired new uses on the physical product; from labels and stamps to plans of a stuffed, plush toy. The website design immediately led to sales and was featured in press for the company."
+  },
+  {
+    "brand": "Wonderbread",
+    "title": "Facebook Contest",
+    "type": "Website Design & Front-End Development",
+    "link": "work/wonderbread/wonder_pages.html",
+    "linktext": "View HTML Website",
+    "image": {
+      "src": "img/530w/wonderBread_FB_s1.jpg",
+      "alt": "Wonderbread Facebook Contest"
+    },
+    "story": "This design came from very little in the way of a brief; just a short description of the contest. This was a quick turn-around design project for a branded Facebook contest page. The design team consisted of myself and one other designer. The selected design would be developed by an outside vendor.",
+    "process": "Layout created in Adobe InDesign, then converted to layered art in Photoshop. Files uploaded to FTP server for delivery to outside vendor for development.",
+    "results": "This project was an excellent opportunity to design for Facebook. As one of two designers on this project, I was happy that my design direction was selected for the final build. I am most proud of repurposing elements of the Wonderbread logo as a framing device for images of their idealized customers and for pushing for a simplified navigation."
+  },
+  {
+    "brand": "earwormsMBT",
+    "title": "interactive video/audio mixer micro-site",
+    "type": "Website Design & Front-End Development",
+    "link": null,
+    "linktext": null,
+    "video": [
+      {
+        "elm": "source",
+        "src": "img/earwormsMBT-animated.mp4",
+        "type": "video/mp4",
+        "alt": ""
+      },
+      {
+        "elm": "source",
+        "src": "img/earwormsMBT-animated.webm",
+        "type": "video/webm",
+        "alt": ""
+      },
+      {
+        "elm": "img",
+        "src": "img/530w/earwormsMBT_ui.jpg",
+        "type": "",
+        "alt": "earwormsMBT interactive mixer micro-site"
+      }
+    ],
+    "story": "Taking the remote-working model to its furthest extreme, I proposed an enhancement to this audio-only, language-learning product by prototyping, presenting, and selling this service, all while never once meeting the clients in person.",
+    "process": "Create art in Adobe Illustrator and Photoshop and animate using the earworms audio in AfterEffects. Create a series of demo animations and provide to the client as both Flash video online and as downloadable MP4 files. Compress files for quality and quick download time.",
+    "results": "The prototypes were used in client presentations with airlines as a possible partnership for in-flight, business-class, educational content for their seat-back screens."
   }
-  ,"story":"A personal project, and a personal challenge, to recreate a print ad as a responsive html page."
-  ,"process":"Convert an image of a print design into responsive HTML and CSS. Publish online and save the working code on <a href='https://github.com/omniosi/hnichols-css-ad' target='_blank' rel='noopener'>github</a>"
-  ,"results":"Taking on this code challenge reinforced my love of responsive design and increased my personal confidence."
-},{
-  "brand":"GREY"
-  ,"title":"3D printed Trophy"
-  ,"type":"3D Modeling & Printing"
-  ,"link":null
-  ,"linktext":null
-  ,"image":{
-    "src":"img/530w/grey-trophy_3d-print.jpg"
-    ,"alt":"GREY trophy 3D print"
-  }
-  ,"story":"Part of my role as a Creative Technologist in advertising was evangelizing new technologies to spark our creatives. To this end, we created an <a href='http://www.psfk.com/2014/10/marriot-makerbot-grey-new-york-contest.html' target='_blank' rel='noopener'>internal design competition</a> to concept a physical object to benefit one of our clients. Every contest needs a prize, so I created a trophy that pushed the technology."
-  ,"process":"Using a series of photos from various angles of an existing art piece for reference, I modeled a series of 3D objects in <a href='https://tinkercad.com/' target='_blank' rel='noopener'>Autodesk Tinkercad</a>, exporting each object seperately to insure proper 3D printing. Printed the pieces of the trophy using the <a href='http://www.makerbot.com/' target='_blank' rel='noopener'>Makerbot</a> Replicator 2, including pegs and holes so that the final object can be assembled without glue."
-  ,"results":"Housed in a clear plexiglass case, this Trophy was proudly displayed on the desk of the contest winner. The trophy iteself was good enough to impress the Makerbot people. For myself, I was happy to have access to a 3D printer and grow my 3D design skills."
-},{
-  "brand":"Red Lobster"
-  ,"title":"Go Lobster Fishing"
-  ,"type":"Front-End Development"
-  ,"link":"work/rl/index.html"
-  ,"linktext":"View HTML Website"
-  ,"image":{
-    "src":"img/530w/redLobster_parallax-site.jpg"
-    ,"alt":"Red Lobster - Go Lobster Fishing"
-  }
-  ,"story":"Splitting a custom illustration into a responsive, parallax-scrolling site made this project a lot of fun to work on. The small team of Art Director, myself as UI designer and developer, and a javascript developer, worked tirelessly on precise scroll-position animations while adding hidden easter eggs in the experience."
-  ,"process":"Convert approved designs into HTML, CSS, and Javascript, working with the brilliant Russell Weiss who made the parallax scrolling work across all the browsers that would allow it. Uploaded final designs to the Red Lobster server for deployment."
-  ,"results":"This story-telling site was touted as a pride project for my agency, making its way onto our digital show-reel."
-},{
-  "brand":"pkboo"
-  ,"title":"ecommerce site"
-  ,"type":"Website Design & Front-End Development"
-  ,"link":"work/pkboo/index.html"
-  ,"linktext":"View HTML Website"
-  ,"image":{
-    "src":"img/530w/pkboo_site_home.jpg"
-    ,"alt":"pkbookids.com homepage"
-  }
-  ,"story":"Starting from the logo design for this stylish baby accessory brand, I was able to match a sense of fun with practically, which is exactly the brand ethos of the client. For this project, I created the logo and the site design, then coded the static site that was then passed to the Shopify/Magento developer to add the ecommerce code."
-  ,"process":"Layout in Adobe InDesign with retouching in Photoshop. Convert approved designs into HTML and CSS. Handoff final coded layouts to back-end developer to incorporate Shopify ecommerce functionality."
-  ,"results":"The fun and versatile logo inspired new uses on the physical product; from labels and stamps to plans of a stuffed, plush toy. The website design immediately led to sales and was featured in press for the company."
-},{
-  "brand":"Wonderbread"
-  ,"title":"Facebook Contest"
-  ,"type":"Website Design & Front-End Development"
-  ,"link":"work/pkboo/index.html"
-  ,"linktext":"View HTML Website"
-  ,"image":{
-    "src":"img/530w/wonderBread_FB_s1.jpg"
-    ,"alt":"Wonderbread Facebook Contest"
-  }
-  ,"story":"This design came from very little in the way of a brief; just a short description of the contest. This was a quick turn-around design project for a branded Facebook contest page. The design team consisted of myself and one other designer. The selected design would be developed by an outside vendor."
-  ,"process":"Layout created in Adobe InDesign, then converted to layered art in Photoshop. Files uploaded to FTP server for delivery to outside vendor for development."
-  ,"results":"This project was an excellent opportunity to design for Facebook. As one of two designers on this project, I was happy that my design direction was selected for the final build. I am most proud of repurposing elements of the Wonderbread logo as a framing device for images of their idealized customers and for pushing for a simplified navigation."
-},{
-  "brand":"earwormsMBT"
-  ,"title":"interactive video/audio mixer micro-site"
-  ,"type":"Website Design & Front-End Development"
-  ,"link":null
-  ,"linktext":null
-  ,"video":[{
-    "elm":"source"
-    ,"src":"img/earwormsMBT-animated.mp4"
-    ,"type":"video/mp4"
-    ,"alt":""
-  },{
-    "elm":"source"
-    ,"src":"img/earwormsMBT-animated.webm"
-    ,"type":"video/webm"
-    ,"alt":""
-  },{
-    "elm":"img"
-    ,"src":"img/530w/earwormsMBT_ui.jpg"
-    ,"type":""
-    ,"alt":"earwormsMBT interactive mixer micro-site"
-  }]
-  ,"story":"Taking the remote-working model to its furthest extreme, I proposed an enhancement to this audio-only, language-learning product by prototyping, presenting, and selling this service, all while never once meeting the clients in person."
-  ,"process":"Create art in Adobe Illustrator and Photoshop and animate using the earworms audio in AfterEffects. Create a series of demo animations and provide to the client as both Flash video online and as downloadable MP4 files. Compress files for quality and quick download time."
-  ,"results":"The prototypes were used in client presentations with airlines as a possible partnership for in-flight, business-class, educational content for their seat-back screens."
-}]
+]
